@@ -36,7 +36,7 @@ export default function HeroContent() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.6 }}
-        className="mt-10 flex gap-10"
+        className="mt-10 flex flex-wrap gap-6 sm:gap-10"
       >
         {stats.map((stat) => (
           <div key={stat.label}>

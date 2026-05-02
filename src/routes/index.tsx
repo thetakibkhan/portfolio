@@ -8,14 +8,6 @@ import AchievementsSection from "@/components/AchievementsSection";
 import ContactSection from "@/components/ContactSection";
 
 export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "Takib Khan — Full-Stack Developer" },
-      { name: "description", content: "Full-stack JavaScript developer specializing in AI-directed rapid development. React, Node.js, TypeScript, PostgreSQL." },
-      { property: "og:title", content: "Takib Khan — Full-Stack Developer" },
-      { property: "og:description", content: "Full-stack JavaScript developer shipping production-ready features with AI-driven workflows." },
-    ],
-  }),
   component: Index,
 });
 
@@ -26,7 +18,7 @@ function Index() {
       <div className="mx-auto max-w-7xl px-6 pt-24 pb-16">
         <div className="flex flex-col gap-12 lg:flex-row lg:gap-16">
           {/* Left column — sticky profile card */}
-          <div className="flex-shrink-0 lg:w-80">
+          <div className="flex justify-center lg:block lg:flex-shrink-0 lg:w-80">
             <div className="lg:sticky lg:top-24">
               <ProfileCard />
             </div>
