@@ -17,10 +17,8 @@ export default function ProfileCard() {
       transition={{ duration: 0.8 }}
       className="relative"
     >
-      {/* Dashed decorative border */}
-      <div className="absolute -top-4 -left-4 h-[calc(100%+2rem)] w-[calc(100%+2rem)] rounded-3xl border-2 border-dashed border-primary/40" />
       <div className="relative w-72 overflow-hidden rounded-2xl border border-border bg-card p-6 text-center shadow-2xl">
-        <div className="relative mx-auto mb-4 h-52 w-52 overflow-hidden rounded-xl">
+        <div className="relative mx-auto mb-4 h-60 w-52 overflow-hidden rounded-xl">
           <img
             src={profileImg}
             alt="Takib Khan"
