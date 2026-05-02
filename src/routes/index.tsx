@@ -15,7 +15,7 @@ function Index() {
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
-      <div className="mx-auto max-w-7xl px-6 pt-24 pb-16">
+      <div className="mx-auto max-w-7xl px-6 pt-32 pb-16">
         <div className="flex flex-col gap-12 lg:flex-row lg:gap-16">
           {/* Left column — sticky profile card */}
           <div className="flex justify-center lg:block lg:flex-shrink-0 lg:w-80">
