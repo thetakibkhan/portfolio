@@ -29,10 +29,8 @@ export default function ProfileCard() {
           <div className="absolute inset-0 bg-gradient-to-t from-primary/30 to-transparent" />
         </div>
         <h3 className="text-xl font-bold text-foreground font-display">Takib Khan</h3>
-        <div className="my-3 flex justify-center">
-          <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground text-sm">🔥</span>
-        </div>
-        <p className="text-sm text-muted-foreground leading-relaxed">
+        <p className="mt-1 text-xs text-primary font-medium">Software Engineer</p>
+        <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
           A Software Engineer who ships production-ready features with AI-driven workflows.
         </p>
         <div className="mt-5 flex justify-center gap-3">

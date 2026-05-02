@@ -5,12 +5,12 @@ const achievements = [
   {
     icon: Code,
     title: "1800+ Problems Solved",
-    description: "Across 400+ contests over 4 years on Codeforces, AtCoder, and CodeChef.",
+    description: "400+ contests over 4 years. CF: Specialist (max 1454) · AtCoder: max 867 · CodeChef: max 1690.",
   },
   {
     icon: Award,
     title: "ICPC Top 6%",
-    description: "154th / 2500 in Preliminary 2023, 164th / 2500 in 2024.",
+    description: "154th / 2500 – Preliminary 2023 · 164th / 2500 – Preliminary 2024.",
   },
   {
     icon: Award,
@@ -20,7 +20,7 @@ const achievements = [
   {
     icon: Users,
     title: "Best Mentor Award",
-    description: "Bootcamp Coordinator at IIUC Competitive Programming Society.",
+    description: "Received as Bootcamp Coordinator at IIUC Competitive Programming Society.",
   },
 ];
 

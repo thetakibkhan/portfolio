@@ -57,7 +57,7 @@ export default function HeroContent() {
       >
         <div className="bg-gradient-orange flex-1 min-w-[180px] rounded-2xl p-5">
           <p className="text-sm font-bold uppercase tracking-wider text-primary-foreground">
-            AI-DIRECTED DEVELOPMENT,<br />RAPID ITERATION
+            HONO, BUN, POSTGRESQL,<br />DRIZZLE ORM
           </p>
           <div className="mt-4 flex justify-end">
             <span className="flex h-8 w-8 items-center justify-center rounded-full border border-primary-foreground/30 text-primary-foreground">→</span>

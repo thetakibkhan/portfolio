@@ -2,16 +2,16 @@ import { motion } from "framer-motion";
 
 const skillGroups = [
   {
-    title: "AI Development Tools",
-    items: ["Claude Code", "Gemini CLI", "GitHub Copilot", "OpenCode", "Codex"],
+    title: "Languages",
+    items: ["TypeScript", "JavaScript", "Python", "C++", "C"],
   },
   {
     title: "Frontend",
-    items: ["React 19", "Next.js", "TypeScript", "TanStack Router/Query", "Tailwind CSS", "Vite", "Jotai"],
+    items: ["React 19", "TanStack Router/Query", "Tailwind CSS", "Vite", "Jotai"],
   },
   {
     title: "Backend & Frameworks",
-    items: ["Node.js", "Express.js", "Hono", "Bun", "REST API", "oRPC"],
+    items: ["Node.js", "Bun", "Hono", "Express", "Django", "REST API", "oRPC"],
   },
   {
     title: "Databases & ORM",
@@ -22,8 +22,12 @@ const skillGroups = [
     items: ["JWT", "Better Auth", "Firebase Auth", "RBAC", "Zod"],
   },
   {
-    title: "DevOps",
-    items: ["Docker", "CI/CD", "Git", "GitHub", "Linux"],
+    title: "DevOps & Tools",
+    items: ["Docker", "CI/CD", "Git", "GitHub", "Linux", "ClickUp"],
+  },
+  {
+    title: "AI Development",
+    items: ["Claude Code", "Gemini CLI", "GitHub Copilot", "OpenCode", "Codex"],
   },
 ];
 
