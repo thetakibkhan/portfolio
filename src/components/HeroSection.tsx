@@ -6,7 +6,7 @@ import profileImg from "@/assets/profile.jpg";
 const stats = [
   { value: "1800+", label: "PROBLEMS\nSOLVED" },
   { value: "400+", label: "CONTESTS\nCOMPLETED" },
-  { value: "2", label: "FULL-STACK\nPLATFORMS" },
+  { value: "2", label: "SOFTWARE\nPLATFORMS" },
 ];
 
 const socials = [
@@ -44,7 +44,7 @@ export default function HeroSection() {
               <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground text-sm">🔥</span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              A Full-Stack Developer who ships production-ready features with AI-driven workflows.
+              A Software Engineer who ships production-ready features with AI-driven workflows.
             </p>
             <div className="mt-5 flex justify-center gap-3">
               {socials.map((s) => (
@@ -70,7 +70,7 @@ export default function HeroSection() {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <h1 className="font-display text-6xl font-bold leading-none tracking-tight text-foreground md:text-8xl lg:text-9xl">
-              FULL-STACK
+              SOFTWARE ENGINEER
             </h1>
             <h1 className="font-display text-6xl font-bold leading-none tracking-tight text-gradient-orange md:text-8xl lg:text-9xl">
               DEVELOPER

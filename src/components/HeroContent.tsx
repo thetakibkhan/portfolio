@@ -15,10 +15,10 @@ export default function HeroContent() {
         transition={{ duration: 0.8, delay: 0.2 }}
       >
         <h1 className="font-display text-5xl font-bold leading-none tracking-tight text-foreground md:text-7xl xl:text-8xl">
-          FULL-STACK
+          SOFTWARE
         </h1>
         <h1 className="font-display text-5xl font-bold leading-none tracking-tight text-gradient-orange md:text-7xl xl:text-8xl">
-          DEVELOPER
+          ENGINEER
         </h1>
       </motion.div>
 

@@ -33,7 +33,7 @@ export default function ProfileCard() {
           <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground text-sm">🔥</span>
         </div>
         <p className="text-sm text-muted-foreground leading-relaxed">
-          A Full-Stack Developer who ships production-ready features with AI-driven workflows.
+          A Software Engineer who ships production-ready features with AI-driven workflows.
         </p>
         <div className="mt-5 flex justify-center gap-3">
           {socials.map((s) => (
