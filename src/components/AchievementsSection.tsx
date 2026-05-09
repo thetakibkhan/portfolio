@@ -32,22 +32,16 @@ const experience = [
     desc: "Led Competitive Programming II lab sessions covering algorithms and data structures.",
   },
   {
-    role: "Bootcamp Coordinator",
-    org: "IIUC CP Society",
-    period: "Jan – Jul 2025",
-    desc: "Organized bootcamps and contests, tracked member performance.",
-  },
-  {
-    role: "Trainer",
-    org: "IIUC CP Society",
-    period: "Sept 2025 – Jan 2026",
-    desc: "Conducted bootcamp sessions to improve competitive programming skills.",
+    role: "Bootcamp Coordinator & Trainer",
+    org: "IIUC Competitive Programming Society",
+    period: "Jan 2025 – Jan 2026",
+    desc: "Organized bootcamps/contests, tracked member performance, received Best Mentor Award; conducted training sessions to improve members' competitive programming problem-solving skills.",
   },
 ];
 
 export default function AchievementsSection() {
   return (
-    <section id="achievements" className="py-16">
+    <section id="achievements" className="py-16 scroll-mt-24">
       <div>
         <motion.h2
           initial={{ opacity: 0 }}

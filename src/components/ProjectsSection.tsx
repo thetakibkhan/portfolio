@@ -28,6 +28,17 @@ const projects = [
     color: "bg-gradient-lime",
   },
   {
+    title: "AI Ticket Pipeline",
+    subtitle: "Async AI-Powered Support",
+    description:
+      "Async, AI-powered support ticket pipeline with two-phase processing and real-time status updates. Exponential backoff, DLQ routing, manual replay for failed tickets, and Zod-validated AI outputs.",
+    tech: ["Node.js", "TypeScript", "Express", "PostgreSQL", "AWS SQS", "Portkey AI", "Socket.io", "Vitest"],
+    image: null,
+    github: "https://github.com/thetakibkhan/AI-Ticket-Processing-Pipeline",
+    live: null,
+    color: "bg-gradient-orange",
+  },
+  {
     title: "Video Chat App",
     subtitle: "Real-Time Streaming",
     description:
@@ -36,7 +47,7 @@ const projects = [
     image: null,
     github: "https://github.com/thetakibkhan/Chat-App",
     live: "https://chat-app-1-vqtx.onrender.com/",
-    color: "bg-gradient-orange",
+    color: "bg-gradient-lime",
   },
   {
     title: "Heart Disease Prediction",
@@ -53,7 +64,7 @@ const projects = [
 
 export default function ProjectsSection() {
   return (
-    <section id="projects" className="py-16">
+    <section id="projects" className="py-16 scroll-mt-24">
       <div>
         <motion.h2
           initial={{ opacity: 0 }}

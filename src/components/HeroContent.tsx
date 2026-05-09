@@ -8,7 +8,7 @@ const stats = [
 
 export default function HeroContent() {
   return (
-    <section id="home">
+    <section id="home" className="scroll-mt-24">
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
@@ -55,20 +55,20 @@ export default function HeroContent() {
         transition={{ duration: 0.6, delay: 0.8 }}
         className="mt-10 flex flex-wrap gap-4"
       >
+        <div className="bg-gradient-lime flex-1 min-w-[180px] rounded-2xl p-5">
+          <p className="text-sm font-bold uppercase tracking-wider text-accent-foreground">
+            REACT, TANSTACK,<br />TAILWIND CSS
+          </p>
+          <div className="mt-4 flex justify-end">
+            <span className="flex h-8 w-8 items-center justify-center rounded-full border border-accent-foreground/30 text-accent-foreground">→</span>
+          </div>
+        </div>
         <div className="bg-gradient-orange flex-1 min-w-[180px] rounded-2xl p-5">
           <p className="text-sm font-bold uppercase tracking-wider text-primary-foreground">
             HONO, BUN, POSTGRESQL,<br />DRIZZLE ORM
           </p>
           <div className="mt-4 flex justify-end">
             <span className="flex h-8 w-8 items-center justify-center rounded-full border border-primary-foreground/30 text-primary-foreground">→</span>
-          </div>
-        </div>
-        <div className="bg-gradient-lime flex-1 min-w-[180px] rounded-2xl p-5">
-          <p className="text-sm font-bold uppercase tracking-wider text-accent-foreground">
-            REACT, NODE.JS, POSTGRESQL,<br />TYPESCRIPT
-          </p>
-          <div className="mt-4 flex justify-end">
-            <span className="flex h-8 w-8 items-center justify-center rounded-full border border-accent-foreground/30 text-accent-foreground">→</span>
           </div>
         </div>
       </motion.div>

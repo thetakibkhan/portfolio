@@ -4,7 +4,7 @@ import { GithubIcon, LinkedinIcon } from "./SocialIcons";
 
 export default function ContactSection() {
   return (
-    <section id="contact" className="py-16">
+    <section id="contact" className="py-16 scroll-mt-24">
       <div>
         <motion.h2
           initial={{ opacity: 0 }}
@@ -56,7 +56,7 @@ export default function ContactSection() {
                 <GithubIcon className="h-5 w-5" />
               </a>
               <a
-                href="https://linkedin.com/in/takib-khan"
+                href="https://www.linkedin.com/in/takib-khan-b090b021a/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex h-11 w-11 items-center justify-center rounded-full border border-border text-muted-foreground transition-colors hover:border-primary hover:text-primary"
