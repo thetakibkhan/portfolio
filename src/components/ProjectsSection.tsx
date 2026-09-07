@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { ExternalLink as ExternalLinkIcon } from "lucide-react";
 import { GithubIcon } from "./SocialIcons";
+import placeholderImg from "@/assets/project-ayojon.jpg";
 import ayojonImg from "@/assets/project-ayojon.jpg";
 import taskorbitImg from "@/assets/project-taskorbit.jpg";
 
@@ -23,7 +24,7 @@ const projects = [
       "Zod",
       "Vitest",
     ],
-    image: null,
+    image: placeholderImg,
     github: "https://github.com/thetakibkhan/AI-Ticket-Processing-Pipeline",
     live: null,
     color: "bg-gradient-orange",
@@ -90,7 +91,7 @@ const projects = [
       "xUnit",
       "Docker",
     ],
-    image: null,
+    image: placeholderImg,
     github: "https://github.com/thetakibkhan/assignment-submission-system",
     live: "https://assignment-submission-system-web.onrender.com/",
     color: "bg-gradient-orange",
@@ -109,7 +110,7 @@ const projects = [
       "Django REST Framework",
       "PostgreSQL",
     ],
-    image: null,
+    image: placeholderImg,
     github: "https://github.com/thetakibkhan/404-client",
     live: "https://404-client.netlify.app/",
     color: "bg-gradient-orange",
@@ -120,7 +121,7 @@ const projects = [
     description:
       "Full-stack blog application with post pages, CSRF-protected comments, server-side validation, and Django admin-based content management.",
     tech: ["Python", "Django", "SQLite", "HTML", "CSS"],
-    image: null,
+    image: placeholderImg,
     github: "https://github.com/thetakibkhan/Blog-App/tree/main",
     live: "https://blog-app-1-5svb.onrender.com/",
     color: "bg-gradient-lime",
@@ -131,7 +132,7 @@ const projects = [
     description:
       "Real-time video chat application built with Django and Agora WebRTC for low-latency peer-to-peer streaming.",
     tech: ["Django", "Agora WebRTC", "Python"],
-    image: null,
+    image: placeholderImg,
     github: "https://github.com/thetakibkhan/Chat-App",
     live: "https://chat-app-1-vqtx.onrender.com/",
     color: "bg-gradient-lime",
@@ -142,7 +143,7 @@ const projects = [
     description:
       "Transfer-learning image classifier using ResNet50 trained on 5,723 natural-scene images, achieving 92.67% test accuracy.",
     tech: ["Python", "ResNet50", "Transfer Learning", "Computer Vision", "Image Classification"],
-    image: null,
+    image: placeholderImg,
     github: null,
     live: "https://drive.google.com/file/d/1MIFk6DvAxkRlphUdnrwoJlMifizqrNtg/view?usp=drive_link",
     color: "bg-gradient-orange",
@@ -153,7 +154,7 @@ const projects = [
     description:
       "Analysis of the Cleveland Clinic dataset (303 records, 13 features) with a meta-stacking ensemble, achieving 90.16% test accuracy.",
     tech: ["Python", "Scikit-learn", "Meta-Stacking", "Ensemble", "SHAP", "XAI"],
-    image: null,
+    image: placeholderImg,
     github: null,
     live: "https://drive.google.com/file/d/13GwUREC1oizV7MuIG8bJcu2eT1Re81CI/view?usp=drive_link",
     color: "bg-gradient-lime",
@@ -164,7 +165,7 @@ const projects = [
     description:
       "Hospital management system with hierarchical user roles, patient registration, appointment scheduling, and file-based data storage.",
     tech: ["C++", "File System"],
-    image: null,
+    image: placeholderImg,
     github: "https://github.com/Tanjim605/Hospital_Management_System",
     live: null,
     color: "bg-gradient-lime",
@@ -207,7 +208,7 @@ export default function ProjectsSection() {
                   <div className="absolute inset-0 bg-gradient-to-t from-card to-transparent" />
                 </div>
               )}
-              <div className="p-6">
+              <div className="flex h-full flex-col p-6">
                 <div className="flex items-start justify-between">
                   <div>
                     <h3 className="font-display text-xl font-bold text-foreground">
@@ -238,7 +239,7 @@ export default function ProjectsSection() {
                     )}
                   </div>
                 </div>
-                <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
+                <p className="mt-3 flex-grow text-sm leading-relaxed text-muted-foreground">
                   {project.description}
                 </p>
                 <div className="mt-4 flex flex-wrap gap-2">
