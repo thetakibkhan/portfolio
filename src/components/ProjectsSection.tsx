@@ -6,11 +6,45 @@ import taskorbitImg from "@/assets/project-taskorbit.jpg";
 
 const projects = [
   {
+    title: "AI Ticket Pipeline",
+    subtitle: "Async AI-Powered Support",
+    description:
+      "Two-phase AI-powered support pipeline that classifies tickets, assigns priority, routes requests, and drafts responses with real-time status updates. Exponential backoff with jitter, DLQ routing, manual replay for failed tickets, and Zod-validated AI outputs.",
+    tech: [
+      "Node.js",
+      "TypeScript",
+      "Express",
+      "PostgreSQL",
+      "AWS SQS",
+      "LocalStack",
+      "OpenRouter",
+      "Portkey AI",
+      "Socket.io",
+      "Zod",
+      "Vitest",
+    ],
+    image: null,
+    github: "https://github.com/thetakibkhan/AI-Ticket-Processing-Pipeline",
+    live: null,
+    color: "bg-gradient-orange",
+  },
+  {
     title: "Ayojon E-Commerce",
     subtitle: "Multi-Vendor Marketplace",
     description:
-      "Full-stack multi-vendor e-commerce platform for event products in Bangladesh/South Asia. Vendor onboarding, product CRUD with variants, hybrid cart sync, multi-step bKash/COD checkout, and admin dashboards with KPI analytics.",
-    tech: ["React 19", "TanStack Router/Query", "Hono", "Bun", "oRPC", "Drizzle ORM", "PostgreSQL", "Better Auth", "S3"],
+      "Full-stack multi-vendor e-commerce platform for event products. Vendor onboarding, product CRUD, hybrid cart sync, multi-step bKash/COD checkout, dashboards with KPI analytics, and separate prepaid/COD order workflows.",
+    tech: [
+      "React 19",
+      "TypeScript",
+      "TanStack Router/Query",
+      "Hono",
+      "Bun",
+      "oRPC",
+      "Drizzle ORM",
+      "PostgreSQL",
+      "Better Auth",
+      "S3",
+    ],
     image: ayojonImg,
     github: "https://github.com/khalludi03/Ayojon",
     live: null,
@@ -20,23 +54,76 @@ const projects = [
     title: "TaskOrbit",
     subtitle: "Micro-Task Earning Platform",
     description:
-      "Full-stack micro-task marketplace connecting buyers and workers globally. Role-based auth (worker/buyer/admin), task posting with coin budgets, submission/approval workflow, and coin-based payout system.",
-    tech: ["React 19", "TanStack Router", "Node.js", "Express", "MongoDB", "Firebase Auth"],
+      "Full-stack micro-task marketplace connecting buyers and workers. Role-based auth (worker/buyer/admin), task posting with coin budgets, submission/approval workflow, and coin-based payout system with withdrawal management.",
+    tech: [
+      "React",
+      "Vite",
+      "TanStack Router",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Firebase Auth",
+      "RBAC",
+    ],
     image: taskorbitImg,
     github: "https://github.com/thetakibkhan/microtask-server",
     live: "https://taskrbit.netlify.app/",
     color: "bg-gradient-lime",
   },
   {
-    title: "AI Ticket Pipeline",
-    subtitle: "Async AI-Powered Support",
+    title: "Assignment Submission System",
+    subtitle: "Full-Stack Web Application",
     description:
-      "Async, AI-powered support ticket pipeline with two-phase processing and real-time status updates. Exponential backoff, DLQ routing, manual replay for failed tickets, and Zod-validated AI outputs.",
-    tech: ["Node.js", "TypeScript", "Express", "PostgreSQL", "AWS SQS", "Portkey AI", "Socket.io", "Vitest"],
+      "Full-stack assignment-submission platform with a layered backend architecture, secure role-based authentication, PostgreSQL persistence, automated testing, API documentation, and containerized deployment.",
+    tech: [
+      "Next.js 16",
+      "React 19",
+      "TypeScript",
+      "Tailwind CSS 4",
+      "shadcn/ui",
+      "ASP.NET Core",
+      "C#",
+      "PostgreSQL",
+      "Entity Framework Core",
+      "JWT",
+      "RBAC",
+      "xUnit",
+      "Docker",
+    ],
     image: null,
-    github: "https://github.com/thetakibkhan/AI-Ticket-Processing-Pipeline",
-    live: null,
+    github: "https://github.com/thetakibkhan/assignment-submission-system",
+    live: "https://assignment-submission-system-web.onrender.com/",
     color: "bg-gradient-orange",
+  },
+  {
+    title: "404 Project Not Found",
+    subtitle: "Medical Annotation Platform",
+    description:
+      "Medical-image annotation workspace for labeling scans, managing frontend state, reviewing annotation work, and storing structured data through backend APIs.",
+    tech: [
+      "React",
+      "TypeScript",
+      "TanStack Query",
+      "Zustand",
+      "Konva",
+      "Django REST Framework",
+      "PostgreSQL",
+    ],
+    image: null,
+    github: "https://github.com/thetakibkhan/404-client",
+    live: "https://404-client.netlify.app/",
+    color: "bg-gradient-orange",
+  },
+  {
+    title: "Blog Platform",
+    subtitle: "Django Web Application",
+    description:
+      "Full-stack blog application with post pages, CSRF-protected comments, server-side validation, and Django admin-based content management.",
+    tech: ["Python", "Django", "SQLite", "HTML", "CSS"],
+    image: null,
+    github: "https://github.com/thetakibkhan/Blog-App/tree/main",
+    live: "https://blog-app-1-5svb.onrender.com/",
+    color: "bg-gradient-lime",
   },
   {
     title: "Video Chat App",
@@ -50,13 +137,35 @@ const projects = [
     color: "bg-gradient-lime",
   },
   {
-    title: "Heart Disease Prediction",
-    subtitle: "ML Thesis — Meta-Stacking Ensemble",
+    title: "Natural Scene Classification",
+    subtitle: "Transfer Learning — ResNet50",
     description:
-      "Thesis achieving 90.16% accuracy with Meta-Stacking ensemble model. Used SHAP for explainable AI (XAI) to interpret predictions.",
-    tech: ["Python", "Scikit-learn", "SHAP", "XAI"],
+      "Transfer-learning image classifier using ResNet50 trained on 5,723 natural-scene images, achieving 92.67% test accuracy.",
+    tech: ["Python", "ResNet50", "Transfer Learning", "Computer Vision", "Image Classification"],
     image: null,
     github: null,
+    live: "https://drive.google.com/file/d/1MIFk6DvAxkRlphUdnrwoJlMifizqrNtg/view?usp=drive_link",
+    color: "bg-gradient-orange",
+  },
+  {
+    title: "Heart Disease Prediction",
+    subtitle: "ML — Meta-Stacking Ensemble",
+    description:
+      "Analysis of the Cleveland Clinic dataset (303 records, 13 features) with a meta-stacking ensemble, achieving 90.16% test accuracy.",
+    tech: ["Python", "Scikit-learn", "Meta-Stacking", "Ensemble", "SHAP", "XAI"],
+    image: null,
+    github: null,
+    live: "https://drive.google.com/file/d/13GwUREC1oizV7MuIG8bJcu2eT1Re81CI/view?usp=drive_link",
+    color: "bg-gradient-lime",
+  },
+  {
+    title: "Hospital Management System",
+    subtitle: "C++ Application",
+    description:
+      "Hospital management system with hierarchical user roles, patient registration, appointment scheduling, and file-based data storage.",
+    tech: ["C++", "File System"],
+    image: null,
+    github: "https://github.com/Tanjim605/Hospital_Management_System",
     live: null,
     color: "bg-gradient-lime",
   },
@@ -101,7 +210,9 @@ export default function ProjectsSection() {
               <div className="p-6">
                 <div className="flex items-start justify-between">
                   <div>
-                    <h3 className="font-display text-xl font-bold text-foreground">{project.title}</h3>
+                    <h3 className="font-display text-xl font-bold text-foreground">
+                      {project.title}
+                    </h3>
                     <p className="text-sm text-primary">{project.subtitle}</p>
                   </div>
                   <div className="flex gap-2">
@@ -127,10 +238,15 @@ export default function ProjectsSection() {
                     )}
                   </div>
                 </div>
-                <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{project.description}</p>
+                <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
+                  {project.description}
+                </p>
                 <div className="mt-4 flex flex-wrap gap-2">
                   {project.tech.map((t) => (
-                    <span key={t} className="rounded-full bg-secondary px-3 py-1 text-xs font-medium text-secondary-foreground">
+                    <span
+                      key={t}
+                      className="rounded-full bg-secondary px-3 py-1 text-xs font-medium text-secondary-foreground"
+                    >
                       {t}
                     </span>
                   ))}
