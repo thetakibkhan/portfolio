@@ -1,9 +1,16 @@
 import { motion } from "framer-motion";
 import { ExternalLink as ExternalLinkIcon } from "lucide-react";
 import { GithubIcon } from "./SocialIcons";
-import placeholderImg from "@/assets/project-ayojon.jpg";
 import ayojonImg from "@/assets/project-ayojon.jpg";
 import taskorbitImg from "@/assets/project-taskorbit.jpg";
+import ticketPipelineImg from "@/assets/project-ticket-pipeline.jpg";
+import assignmentImg from "@/assets/project-assignment.jpg";
+import annotationImg from "@/assets/project-404.jpg";
+import blogImg from "@/assets/project-blog.jpg";
+import videoChatImg from "@/assets/project-video-chat.jpg";
+import natureImg from "@/assets/project-nature-classification.jpg";
+import heartDiseaseImg from "@/assets/project-heart-disease.jpg";
+import hospitalImg from "@/assets/project-hospital.jpg";
 
 const projects = [
   {
@@ -24,7 +31,7 @@ const projects = [
       "Zod",
       "Vitest",
     ],
-    image: placeholderImg,
+    image: ticketPipelineImg,
     github: "https://github.com/thetakibkhan/AI-Ticket-Processing-Pipeline",
     live: null,
     color: "bg-gradient-orange",
@@ -91,7 +98,7 @@ const projects = [
       "xUnit",
       "Docker",
     ],
-    image: placeholderImg,
+    image: assignmentImg,
     github: "https://github.com/thetakibkhan/assignment-submission-system",
     live: "https://assignment-submission-system-web.onrender.com/",
     color: "bg-gradient-orange",
@@ -110,7 +117,7 @@ const projects = [
       "Django REST Framework",
       "PostgreSQL",
     ],
-    image: placeholderImg,
+    image: annotationImg,
     github: "https://github.com/thetakibkhan/404-client",
     live: "https://404-client.netlify.app/",
     color: "bg-gradient-orange",
@@ -121,7 +128,7 @@ const projects = [
     description:
       "Full-stack blog application with post pages, CSRF-protected comments, server-side validation, and Django admin-based content management.",
     tech: ["Python", "Django", "SQLite", "HTML", "CSS"],
-    image: placeholderImg,
+    image: blogImg,
     github: "https://github.com/thetakibkhan/Blog-App/tree/main",
     live: "https://blog-app-1-5svb.onrender.com/",
     color: "bg-gradient-lime",
@@ -132,7 +139,7 @@ const projects = [
     description:
       "Real-time video chat application built with Django and Agora WebRTC for low-latency peer-to-peer streaming.",
     tech: ["Django", "Agora WebRTC", "Python"],
-    image: placeholderImg,
+    image: videoChatImg,
     github: "https://github.com/thetakibkhan/Chat-App",
     live: "https://chat-app-1-vqtx.onrender.com/",
     color: "bg-gradient-lime",
@@ -143,7 +150,7 @@ const projects = [
     description:
       "Transfer-learning image classifier using ResNet50 trained on 5,723 natural-scene images, achieving 92.67% test accuracy.",
     tech: ["Python", "ResNet50", "Transfer Learning", "Computer Vision", "Image Classification"],
-    image: placeholderImg,
+    image: natureImg,
     github: null,
     live: "https://drive.google.com/file/d/1MIFk6DvAxkRlphUdnrwoJlMifizqrNtg/view?usp=drive_link",
     color: "bg-gradient-orange",
@@ -154,7 +161,7 @@ const projects = [
     description:
       "Analysis of the Cleveland Clinic dataset (303 records, 13 features) with a meta-stacking ensemble, achieving 90.16% test accuracy.",
     tech: ["Python", "Scikit-learn", "Meta-Stacking", "Ensemble", "SHAP", "XAI"],
-    image: placeholderImg,
+    image: heartDiseaseImg,
     github: null,
     live: "https://drive.google.com/file/d/13GwUREC1oizV7MuIG8bJcu2eT1Re81CI/view?usp=drive_link",
     color: "bg-gradient-lime",
@@ -165,7 +172,7 @@ const projects = [
     description:
       "Hospital management system with hierarchical user roles, patient registration, appointment scheduling, and file-based data storage.",
     tech: ["C++", "File System"],
-    image: placeholderImg,
+    image: hospitalImg,
     github: "https://github.com/Tanjim605/Hospital_Management_System",
     live: null,
     color: "bg-gradient-lime",
