@@ -11,7 +11,7 @@ const skillGroups = [
   },
   {
     title: "Backend & Frameworks",
-    items: ["Node.js", "Bun", "Hono", "Express", "Django", "REST API", "oRPC"],
+    items: ["Node.js", "Express", "Django", "REST API", "oRPC"],
   },
   {
     title: "Databases & ORM",
